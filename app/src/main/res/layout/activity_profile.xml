@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".activity.ProfileActivity">
+
+    <include
+        android:id="@+id/toolbar_main"
+        layout="@layout/toolbar_main"/>
+
+    <TextView
+        android:id="@+id/currencyTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Currency"
+        android:textSize="24sp"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="100dp"/>
+
+    <Spinner
+        android:id="@+id/currencySpinner"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="100dp"
+        android:layout_marginLeft="50dp"
+        android:layout_toRightOf="@+id/currencyTextView"/>
+
+    <TextView
+        android:id="@+id/enableNotificationsTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Notifications"
+        android:textSize="24sp"
+        android:layout_below="@+id/currencyTextView"
+        android:layout_marginTop="100dp"/>
+
+    <Switch
+        android:id="@+id/enableNotificationsSwitch"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_below="@+id/currencyTextView"
+        android:layout_toRightOf="@+id/enableNotificationsTextView"
+        android:layout_marginTop="100dp"
+        />
+
+    <TextView
+        android:id="@+id/notificationTimeTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="32sp"
+        android:layout_below="@+id/enableNotificationsTextView"
+        android:layout_marginTop="50dp"
+        android:text="00:05"
+        android:visibility="invisible"
+        tools:visibility="visible"
+        />
+    <Button
+        android:id="@+id/timePickerBtn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/notificationTimeTextView"
+        android:layout_marginTop="10dp"
+        android:text="Time"
+        android:visibility="invisible"
+        tools:visibility="visible"
+        />
+
+</RelativeLayout>

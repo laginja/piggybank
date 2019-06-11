@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.myfirstapp.activity.AddStopwatchActivity">
+
+    <include
+        android:id="@+id/toolbar_main"
+        layout="@layout/toolbar_main"/>
+
+    <TextView
+        android:id="@+id/stopwatchTextView"
+        android:text="00:00,00"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="70dp"
+        android:gravity="center"
+        android:textStyle="bold"
+        android:textColor="#FFFFFF"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="250sp"/>
+
+    <TextView
+        android:id="@+id/incomeTextView"
+        android:text="0.00 "
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="50dp"
+        android:textStyle="bold"
+        android:textColor="#009688"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@+id/stopwatchTextView" />
+
+    <Button
+        android:id="@+id/startPauseButton"
+        android:text="Start"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/incomeTextView"
+        android:layout_alignParentRight="true"
+        android:layout_marginTop="60dp"
+        android:layout_marginRight="40dp" />
+
+    <Button
+        android:id="@+id/resetButton"
+        android:text="Reset"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/incomeTextView"
+        android:layout_marginTop="60dp"
+        android:layout_marginLeft="40dp" />
+
+
+    <Button
+        android:id="@+id/buttonAddDB"
+        android:text="Add"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/incomeTextView"
+        android:layout_marginTop="100dp"
+        android:layout_centerHorizontal="true" />
+
+
+</RelativeLayout>

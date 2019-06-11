@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">My First App</string>
+
+    <string-array name="currencies">
+        <item>USD</item>
+        <item>EUR</item>
+        <item>HRK</item>
+    </string-array>
+</resources>

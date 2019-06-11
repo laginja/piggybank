@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#03A9F4</color>
+    <color name="colorPrimaryDark">#0288D1</color>
+    <color name="tabtextcolor">#fff</color>
+    <color name="tabindicatorcolor">#103e0e</color>
+    <color name="colorAccent">#D81B60</color>
+    <color name="colorText">#000000</color>
+
+    <color name="colorBlue">#69D2E7</color>
+    <color name="colorLighterBlue">#A7DBD8</color>
+    <color name="colorGrayish">#E0E4CC</color>
+    <color name="colorLighterOrange">#F38630</color>
+    <color name="ColorOrange">#FA6900</color>
+
+    <color name="colorActionBar">#FA6900</color>
+    <color name="colorTopView">#00A0B0</color>
+    <color name="colorTabLayout">#E0E4CC</color>
+    <color name="colorBackground">#6A4A3C</color>
+    <color name="ColorIncome">#CC333F</color>
+    <color name="colorFab">#00A0B0</color>
+    <color name="ColorFabText">#EDC951</color>
+
+    <color name="colorIncomeShadow">#d65c66</color>
+
+</resources>
